@@ -1,6 +1,6 @@
 <template>
   <layout>
-    <!-- <navbar /> -->
+    <navbar />
 
     <!-- Block start here -->
     <block01 />
@@ -11,7 +11,19 @@
       </div>
     </div>
 
-    <div class="flex flex-col lg:grid lg:gap-4 2xl:gap-6 lg:grid-cols-4 2xl:row-span-2 2xl:pb-8 ml-2 pt-4 px-6">
+    <div
+      class="
+        flex flex-col
+        lg:grid lg:gap-2
+        2xl:gap-6
+        lg:grid-cols-3
+        2xl:row-span-2 2xl:pb-8
+        ml-2
+        p-10
+        card
+        bg-base-300
+      "
+    >
       <div>
         <genericBlock
           title="Castle"
@@ -87,7 +99,10 @@ import navbar from "./components/global/navbar.vue";
 // Blocks
 import block01 from "./components/Block01.vue";
 import genericBlock from "./components/global/GenericBlock.vue";
-
+// Import the core library.
+import { randomTheme } from "./helpers/core";
 // Update the page tittle
 document.title = "Mario Tarosso | Projects";
+
+randomTheme();
 </script>

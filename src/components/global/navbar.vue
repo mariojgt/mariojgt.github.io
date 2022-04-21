@@ -29,7 +29,7 @@
     <div class="flex-none hidden lg:block">
       <ul class="menu menu-horizontal">
         <!-- Navbar menu content here -->
-        <li><a href="https://github.com/mariojgt" >Github</a></li>
+        <li><a href="mailto:mariojgt2@gmail.com" >Email</a></li>
       </ul>
     </div>
   </div>
