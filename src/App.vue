@@ -44,10 +44,10 @@
       </div>
       <div>
         <genericBlock
-          title="Skeleton"
+          title="Skeleton Admin"
           description="Laravel starting point with frontend and backend autentication, comes with 2fa, vue js, tailwind out of the box."
-          link="https://github.com/mariojgt/skeleton"
-          img="https://raw.githubusercontent.com/mariojgt/skeleton/master/Publish/Art/skeleton.png"
+          link="https://github.com/mariojgt/skeleton-admin"
+          img="https://raw.githubusercontent.com/mariojgt/skeleton-admin/master/Publish/Art/logo.png"
           tags="laravel,tailwind, vuejs"
         />
       </div>
