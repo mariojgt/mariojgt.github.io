@@ -10,9 +10,7 @@
                         👋
                     </h1>
                     <p class="mt-6 text-xl leading-9 text-white">
-                        A creative developer and content creator passionate
-                        about open source projects and game development, I love to create things that help other
-                        developers and people in general.
+                        I am a developer with a passion for open source projects and game development. I enjoy creating tools and resources that empower other developers and benefit the wider community. My skills in both development and content creation allow me to bring my ideas to life in a range of different contexts.
                     </p>
                     <div class="mt-3 flex gap-1">
                         <a href="http://twitter.com/mariojgt2" target="_blank">

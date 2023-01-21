@@ -11,29 +11,29 @@
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-evenly gap-10 pt-10">
                         <genericBlock title="Wind-Notify"
-                            description="Wind-Notify provide a simple and easy way to display tailwind and daisy UI toast notification with almost zero configuration"
+                            description="Wind-Notify offers a seamless way to integrate toast notifications into your website or application using the popular Tailwind CSS and Daisy UI frameworks. With minimal setup required, you can quickly and easily display notifications that fit seamlessly with your project's existing design."
                             link="https://github.com/mariojgt/wind-notify"
                             img="https://raw.githubusercontent.com/mariojgt/wind-notify/main/art/logo_large.png"
                             tags="tailwind, javascript" />
                         <genericBlock title="Skeleton Admin"
-                            description="Laravel starting point with frontend and backend authentication, comes with 2fa, vue js, tailwind out of the box."
+                            description="Laravel Starting Point is a pre-configured, ready-to-use boilerplate that includes frontend and backend authentication, as well as 2-factor authentication (2FA) and the Vue.js and Tailwind CSS frameworks. This package provides developers with a quick and easy way to get started on a new Laravel project, with all the necessary features and functionalities already in place."
                             link="https://github.com/mariojgt/skeleton-admin"
                             img="https://raw.githubusercontent.com/mariojgt/skeleton-admin/master/Publish/Art/logo.png"
                             tags="laravel,tailwind, vuejs" />
                         <genericBlock title="Master inventory"
-                            description="Master inventory was design to be a simple and powerful inventory system for any kind of game."
+                            description="Master Inventory is a user-friendly and robust inventory management system, specifically tailored for use in any type of game. Designed to be simple and intuitive, it allows game developers to easily manage and track player inventory, ensuring a seamless gaming experience."
                             link="https://www.unrealengine.com/marketplace/en-US/product/master-inventory"
                             img="https://cdn1.epicgames.com/ue/product/Thumbnail/MasterInventory_thumb-284x284-f18d1dab69231c9ba9e392092b196882.png?resize=1&w=300"
                             tags="Unreal engine" />
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-evenly gap-10 pt-10">
                         <genericBlock title="Castle"
-                            description="This Laravel packages has been design to quickly add 2 steps verifications in am very simple way and very easy to expand."
+                            description="The Laravel 2-Step Verification package is a simple and effective solution for adding an extra layer of security to your application. It is designed to be easy to implement and expand, making it a great choice for developers looking to quickly and efficiently add 2-step verification to their projects."
                             link="https://github.com/mariojgt/castle"
                             img="https://raw.githubusercontent.com/mariojgt/castle/main/Publish/Art/logo.png"
                             tags="laravel,vuejs,tailwind,2fa" />
                         <genericBlock title="Biscotto"
-                            description="Laravel cookie policy packages to help your website with the GDPR rules."
+                            description="The Laravel GDPR Cookie Policy package simplifies compliance with GDPR regulations by providing an easy-to-use solution for managing and displaying cookie consent on your website."
                             link="https://github.com/mariojgt/biscotto"
                             img="https://raw.githubusercontent.com/mariojgt/biscotto/main/Publish/Image/Biscotto.png"
                             tags="laravel,vanilia js" />
@@ -44,17 +44,17 @@
                             tags="laravel,php, stripe, paypal" />
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-evenly gap-10 pt-10">
-                        <genericBlock title="Magnifier" description="A laravel media manager easy to use an integrate."
+                        <genericBlock title="Magnifier" description="The Laravel Media Manager is a user-friendly package that makes it simple to integrate and manage media files within your application."
                             link="https://github.com/mariojgt/magnifier"
                             img="https://raw.githubusercontent.com/mariojgt/magnifier/main/Publish/art/logo.png"
                             tags="laravel,api, tailwind" />
                         <genericBlock title="UnrealRpgMapMaker"
-                            description="Complete solution to make a RPG map maker, with a lot of features, like a radar, waypoints and more."
+                            description="The RPG Map Maker package offers a comprehensive solution for creating and customizing maps in RPG games, with features such as a radar, waypoints, and more."
                             link="https://github.com/mariojgt/UnrealRpgMapMaker"
                             img="https://raw.githubusercontent.com/mariojgt/UnrealRpgMapMaker/main/Art/logo.png"
                             tags="unreal engine 5" />
                         <genericBlock title="RpgClimbing"
-                            description="Zelda style climbing system for unreal engine, this project was design to work standalone and almost 0 configurations"
+                            description="The Zelda-style climbing system for Unreal Engine is a standalone project designed to provide realistic and smooth climbing mechanics, with minimal setup and configuration required."
                             link="https://github.com/mariojgt/RpgClimbing"
                             img="https://raw.githubusercontent.com/mariojgt/RpgClimbing/main/Art/logo.png"
                             tags="unreal engine 5" />
