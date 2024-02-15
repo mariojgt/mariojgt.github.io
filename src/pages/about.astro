@@ -6,6 +6,33 @@ import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 ---
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    let clickCount = 0;
+    const maxClicks = 3; // Set the number of clicks to trigger the change
+
+    const heroImage = document.getElementById('hero-image');
+
+    heroImage.addEventListener('click', function () {
+        clickCount++;
+
+        if (clickCount === maxClicks) {
+            // Change the image source
+            heroImage.src = '/assets/easter.jpg'; // Replace with the new image source
+
+            // Add shake class to the body for the screen shake effect
+            document.body.classList.add('hero-shake');
+
+            // Reset click count and remove shake class after a delay
+            setTimeout(function () {
+                clickCount = 0;
+                document.body.classList.remove('hero-shake');
+            }, 500); // Adjust the delay to match the duration of the shake animation
+        }
+    });
+});
+</script>
+
 <BaseLayout title="About | Mario Tarosso" description="About Mario Tarosso Lorem Ipsum">
 	<div class="stack gap-20">
 		<main class="wrapper about">
@@ -16,6 +43,7 @@ import Hero from '../components/Hero.astro';
 				<img
 					width="1553"
 					height="873"
+                    id="hero-image"
 					src="/assets/portrait.jpg"
 					alt="Mario Tarosso at work with a colleague"
 				/>
