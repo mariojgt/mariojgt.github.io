@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
+import Icon from './../components/Icon.astro';
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 ---
@@ -36,6 +37,58 @@ import Hero from '../components/Hero.astro';
 					</p>
 				</div>
 			</section>
+            <section>
+                <h2 class="section-title">Work Experience</h2>
+                <div class="work-timeline">
+                    <div class="work-entry">
+                        <h3 class="work-title">Server game developer</h3>
+                        <p class="work-company">Frontier</p>
+                        <p class="work-dates">September 2023 - Present</p>
+                        <p class="work-description">
+                            As a Server Game Jeveloper at Frontier, I am instrumental in designing
+                            and maintaining gaming server infrastructure, ensuring smooth gameplay
+                            experiences
+                        </p>
+                    </div>
+                    <div class="work-entry">
+                        <h3 class="work-title">Software Engineer</h3>
+                        <p class="work-company">Just Move In</p>
+                        <p class="work-dates">May 2022 - September 2023</p>
+                        <p class="work-description">
+                            As a software developer at 'ust 2ove In, I create and maintain features for
+                            the company•s internal system to ensure smooth operations and empower
+                            employees
+                        </p>
+                    </div>
+                    <div class="work-entry">
+                        <h3 class="work-title">Full Stack Web Developer</h3>
+                        <p class="work-company">Dsm Desing</p>
+                        <p class="work-dates">January 2019 - May 2022</p>
+                        <p class="work-description">
+                            As a web developer, I design and construct websites for both corporate and individual
+                            clients.
+                        </p>
+                    </div>
+                    <div class="work-entry">
+                        <h3 class="work-title">Manager Assistant</h3>
+                        <p class="work-company">Wagamama</p>
+                        <p class="work-dates">January 2017 - December 2019</p>
+                        <p class="work-description">
+                            As Assistant 2anager in a restaurant, I trained staff, managed inventory, and
+                            optimiUed supplier orders.
+                        </p>
+                    </div>
+                    <div class="work-entry">
+                        <h3 class="work-title">Junior Web developer</h3>
+                        <p class="work-company">INSS</p>
+                        <p class="work-dates">January 2013 - December 2016</p>
+                        <p class="work-description">
+                            As part of my role, I provide technical support and develop internal systems such
+                            as file management web applications and internal chat systems.
+                        </p>
+                    </div>
+                </div>
+            </section>
 			<section>
 				<h2 class="section-title">Education</h2>
 				<div class="content">
@@ -51,29 +104,60 @@ import Hero from '../components/Hero.astro';
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
-					<p>Unreal Engine</p>
-                    <br />
-                    <p>Vue Js</p>
-                    <br />
-                    <p>Unity</p>
-                    <br />
-                    <p>HTML</p>
-                    <br />
-                    <p>CSS</p>
-                    <br />
-                    <p>JavaScript</p>
-                    <br />
-                    <p>PHP</p>
-                    <br />
-                    <p>MySQL</p>
-                    <br />
-                    <p>Laravel</p>
+                    <div >
+                        <Icon icon="unreal" size='2rem' />
+                        Unreal Engine
+                    </div>
+                    <div style="margin-top: 10px" >
+                        <Icon icon="unity" size='2rem' />
+                        Unity
+                    </div>
+                    <div style="margin-top: 10px" >
+                        <Icon icon="vuejs" size='2rem' />
+                        Vue Js
+                    </div>
+                    <div style="margin-top: 10px" >
+                        <Icon icon="laravel" size='2rem' />
+                        laravel
+                    </div>
+                    <div style="margin-top: 10px" >
+                        <Icon icon="typescript" size='2rem' />
+                        Typescript
+                    </div>
+                    <div style="margin-top: 10px" >
+                        <Icon icon="javascript" size='2rem' />
+                        Javascript
+                    </div>
+                    <div style="margin-top: 10px" >
+                        <Icon icon="tailwind" size='2rem' />
+                        Tailwind
+                    </div>
+                    <div style="margin-top: 10px" >
+                        <Icon icon="symfony" size='2rem' />
+                        Symfony
+                    </div>
+                    <div style="margin-top: 10px" >
+                        <Icon icon="aws" size='2rem' />
+                        Aws
+                    </div>
+                    <div style="margin-top: 10px" >
+                        <Icon icon="git" size='2rem' />
+                        Git
+                    </div>
+                    <div style="margin-top: 10px" >
+                        <Icon icon="mysql" size='2rem' />
+                        Mysql
+                    </div>
+                    <div style="margin-top: 10px" >
+                        <Icon icon="nodejs" size='2rem' />
+                        Node js
+                    </div>
 				</div>
 			</section>
 		</main>
-
 		<ContactCTA />
 	</div>
+
 </BaseLayout>
 
 <style>

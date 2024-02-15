@@ -388,3 +388,37 @@ h5 {
         box-shadow: 0 0 20px rgba(255, 136, 0, 0.8), 0 0 30px rgba(255, 136, 0, 0.8), 0 0 40px rgba(255, 136, 0, 0.8);
     }
 }
+
+/* Add this CSS to your existing stylesheet or create a new one */
+
+.work-timeline {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-entry {
+    border-left: 2px solid #ff8800; /* Set the border color */
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.work-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.work-company {
+    color: var(--accent-regular);
+    margin-bottom: 5px;
+}
+
+.work-dates {
+    font-style: italic;
+    color: var(--gray-500);
+    margin-bottom: 5px;
+}
+
+.work-description {
+    color: var(--gray-400);
+}
