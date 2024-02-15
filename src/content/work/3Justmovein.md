@@ -1,10 +1,10 @@
 ---
 title: Just Move In
 publishDate: 2024-01-00 00:00:00
-img: https://raw.githubusercontent.com/mariojgt/biscotto/main/Publish/Image/Biscotto.png
+img: https://raw.githubusercontent.com/mariojgt/mariojgt.github.io/main/public/assets/websites/just.png
 img_alt: biscotto - logo
 description: |
-  Useful Laravel package for managing and displaying cookie consent on your website.
+    Just Move In is a company that helps you to move in to your new home.
 tags:
   - Laravel
   - javascript
@@ -12,7 +12,7 @@ tags:
   - Tailwindcss
 ---
 
-The Laravel GDPR Cookie Policy package simplifies compliance with GDPR regulations by providing an easy-to-use solution for managing and displaying cookie consent on your website.
+Just Move In is a company that helps you to move in to your new home, they offer a wide range of services to help you move in to your new home, from setting up your internet to helping you with your council tax, they have you covered.
 
 Click [here](https://justmovein.com/) to view Just Move In.
 ```
