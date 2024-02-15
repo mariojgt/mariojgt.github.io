@@ -1,7 +1,7 @@
 ---
 title: Master inventory
-publishDate: 2023-03-04 00:00:00
-img: https://cdn1.epicgames.com/ue/product/Screenshot/MasterFeatures-1920x1080-44ba2ba2b7fdba6c8cf1ffc9c9100c60.png?resize=1&w=1920
+publishDate: 2024-01-03 00:00:00
+img: https://cdn1.epicgames.com/ue/product/Screenshot/MasterFeatures-1920x1080-01b5e9f7da09dc2639a664a09fe7af6d.png?resize=1&w=1920
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
   Master inventory is a simple inventory system that you can use to manage your inventory.

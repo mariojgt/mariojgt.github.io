@@ -25,13 +25,28 @@ const projects = (await getCollection('work'))
 // https://docs.astro.build/core-concepts/astro-components/
 ---
 
+<script>
+    const movableElements = document.querySelectorAll('.mouse-move-smooth');
+
+    // Add event listener for mousemove to each element
+    movableElements.forEach(element => {
+        element.addEventListener('mousemove', (e) => {
+            // Calculate the position based on mouse coordinates
+            const x = e.clientX / window.innerWidth - 0.5;
+            const y = e.clientY / window.innerHeight - 0.5;
+
+            // Apply the transform to the current element
+            element.style.transform = `translate(${x * 50}px, ${y * 50}px)`;
+        });
+    });
+</script>
 <BaseLayout>
 	<div class="stack gap-20 lg:gap-48">
 		<div class="wrapper stack gap-8 lg:gap-20">
-			<header class="hero">
+			<header class="hero mouse-move-smooth glass-border">
 				<Hero
 					title="Hello, my name is Mario Tarosso"
-					tagline="Unleashing Creativity: Software and Game Development in Bournemouth, England"
+					tagline="Unleashing Creativity: Software and Game Development"
 					align="start"
 				>
 					<div class="roles">
@@ -45,6 +60,8 @@ const projects = (await getCollection('work'))
 					alt="Mario Tarosso smiling in a red plaid shirt and tortoise shell glasses"
 					width="480"
 					height="620"
+                    id="element1"
+                    class="rounded-lg mg-shadow"
 					src="/assets/portrait.jpg"
 				/>
 			</header>
@@ -52,8 +69,8 @@ const projects = (await getCollection('work'))
 			<Skills />
 		</div>
 
-		<main class="wrapper stack gap-20 lg:gap-48">
-			<section class="section with-background with-cta">
+		<main class="wrapper stack gap-20 lg:gap-48 mouse-move-smooth glass-border">
+			<section class="section with-background with-cta" style="padding: 10px">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Selected Work</h3>
 					<p>Take a look below at some of my featured work for clients from the past few years.</p>

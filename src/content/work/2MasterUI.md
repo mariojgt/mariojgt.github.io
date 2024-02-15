@@ -1,7 +1,7 @@
 ---
 title: Master UI
-publishDate: 2023-03-04 00:00:00
-img: https://cdn1.epicgames.com/ue/product/Screenshot/01-1920x1080-5762ef1a5c43a2aaadf1e97d574d1ec7.png?resize=1&w=1920
+publishDate: 2023-01-02 00:00:00
+img: https://cdn1.epicgames.com/ue/product/Screenshot/2-1920x1080-8e7e2f4d22c4f4755a0f516fb2c2997d.png?resize=1&w=1920
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
   Master UI is a comprehensive library of components that help you create simple but powerfull Widgets in not time. With its flexible theme functionality, you can easily apply various themes to achieve different visual styles without having to worry or refactor your chagnes, saving you valuable time and effort.
